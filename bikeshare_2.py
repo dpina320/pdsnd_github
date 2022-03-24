@@ -93,7 +93,7 @@ def load_data(city, month, day):
         df = df[df['day_of_week'] == day.title()]
     
     return df
-
+#optional line break
 
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
@@ -201,7 +201,7 @@ def raw_output(df):
         
         if raw_req == 'no':
             valid = True
-        
+#optional linebreak
 
 def main():
     while True:
